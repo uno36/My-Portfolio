@@ -5,20 +5,20 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 body {
-  font-family: 'poppins';
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
 
 header {
-  background-color: white;  
+  background-color: white;
 }
 
 a {
   text-decoration: none;
-  color: #1A2236;
+  color: #1a2236;
   font-size: 16px;
   font-weight: 400;
 }
@@ -29,28 +29,28 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;  
+  padding-top: 20px;
 }
- .humburger {
+
+.humburger {
   padding-right: 10px;
   cursor: pointer;
- }
+}
 
- .humburger .line {
+.humburger .line {
   display: block;
   width: 20px;
   height: 3px;
   margin-bottom: 5px;
-  background-color: #1A2236;  
-  
- }
+  background-color: #1a2236;
+}
 
- .nav__link {
+.nav__link {
   position: fixed;
   width: 100;
   top: 5.5rem;
   background-color: white;
- }
+}
 
 .nav__link a {
   display: block;
@@ -59,67 +59,65 @@ nav {
 }
 
 .nav__link a:hover {
-    color: aqua;
+  color: aqua;
 }
 
 .hide {
-  display: none;  
+  display: none;
 }
 
 .section {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  display: flex;  
+  display: flex;
 }
 
 .info {
   margin-left: 0;
   margin-bottom: 0;
   align-items: flex-start;
-
 }
 
 .name {
-    font-family: 'Playfair Dispal';
-    font-weight: 400;
-    font-size: 50px;
-    align-items: center;
-    margin-bottom: 0;
-    color: #1A2236;
-    padding-top: 40px;
-    padding-left: 20px;
+  font-family: 'Playfair Dispal', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  align-items: center;
+  margin-bottom: 0;
+  color: #1a2236;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
-.skills1, 
+.skills1,
 .skills2 {
-  color: #1A2236; 
+  color: #1a2236;
   font-family: 'Poppin' Arial, Helvetica, sans-serif;
   font-size: 14px;
   letter-spacing: -1%;
   padding: 20px;
-  font-weight: 400; 
+  font-weight: 400;
   width: 288px;
 }
 
 .collab {
-    color: #FFFFFF;
-    font-weight: 500;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 80px;
-    padding: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-    width: 288px;
-    background: #1A2236;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  width: 288px;
+  background: #1a2236;
 }
 
 .banner {
-  margin-top: 33px;  
+  margin-top: 33px;
 }
-
 
 @media screen and (min-width: 768px) {
   .nav__link {
@@ -127,17 +125,16 @@ nav {
     position: static;
     width: auto;
     margin-right: 20px;
-    background: none;  
+    background: none;
   }
-  
+
   .nav__link a {
     display: inline-block;
     padding: 10px 20px;
-    
   }
 
   .humburger {
-    display: none;  
+    display: none;
   }
 
   .img {

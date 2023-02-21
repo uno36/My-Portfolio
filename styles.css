@@ -9,28 +9,19 @@ body {
   justify-content: center;
 }
 
-/* .main-header {
+.main-header {
   display: flex;
   flex-direction: row;
   height: 80px;
   background-repeat: no-repeat;
   background-image: url(images/image_geometry_1.svg);
-
-} */
+}
 
 .nav-header {
   display: flex;
   width: 310px;
   height: auto;
 }
-
-/*
-.ic-menu {
-  margin-left: 280px;
-  float: left;
-  width: 20px;
-  height: 55px;
-} */
 
 .section {
   align-items: center;
@@ -73,6 +64,7 @@ body {
 }
 
 .container {
+  background-color: #e5e5e5;
   height: 655px;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -89,7 +81,7 @@ body {
   height: 3px;
   margin-bottom: 5px;
   background-color: #1a2236;
-  margin-left: 160px;
+  margin-left: 260px;
 }
 
 .nav__link {

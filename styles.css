@@ -2,68 +2,39 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair Display');
 @import url('https://fonts.googleapis.com/css?family=Poppin');
 
-* {
-  box-sizing: border-box;
+body {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
   margin: 0;
   padding: 0;
+  width: 320px;
 }
 
-body {
-  font-family: 'poppins', Arial, Helvetica, sans-serif;
-}
-
-header {
-  background-color: white;
-}
-
-a {
-  text-decoration: none;
-  color: #1a2236;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-nav {
-  width: 70%;
-  margin: auto;
+.main-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px;
+  flex-direction: row;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-image: url(images/image_geometry_1.svg);
 }
 
-.humburger {
-  padding-right: 10px;
-  cursor: pointer;
+.nav-header {
+  display: flex;
+  width: 310px;
+  height: auto;
 }
 
-.humburger .line {
-  display: block;
+.ic-menu {
+  margin-left: 280px;
+  float: left;
   width: 20px;
-  height: 3px;
-  margin-bottom: 5px;
-  background-color: #1a2236;
-}
-
-.nav__link {
-  position: fixed;
-  width: 100;
-  top: 5.5rem;
-  background-color: white;
-}
-
-.nav__link a {
-  display: block;
-  text-align: center;
-  padding: 10px;
-}
-
-.nav__link a:hover {
-  color: aqua;
-}
-
-.hide {
-  display: none;
+  height: 55px;
 }
 
 .section {
@@ -73,12 +44,6 @@ nav {
   display: flex;
 }
 
-.info {
-  margin-left: 0;
-  margin-bottom: 0;
-  align-items: flex-start;
-}
-
 .name {
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -86,19 +51,16 @@ nav {
   align-items: center;
   margin-bottom: 0;
   color: #1a2236;
-  padding-top: 40px;
-  padding-left: 20px;
 }
 
 .skills1,
 .skills2 {
   color: #1a2236;
-  font-family: 'Poppin' Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 14px;
   letter-spacing: -1%;
-  padding: 20px;
-  font-weight: 400;
-  width: 288px;
+  font-weight: 595;
+  width: 270px;
 }
 
 .collab {
@@ -106,38 +68,15 @@ nav {
   font-weight: 500;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 11px;
   padding-left: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   padding-right: 15px;
   box-sizing: border-box;
-  width: 288px;
+  width: 270px;
   background: #1a2236;
 }
 
 .banner {
-  margin-top: 33px;
-}
-
-@media screen and (min-width: 768px) {
-  .nav__link {
-    display: block;
-    position: static;
-    width: auto;
-    margin-right: 20px;
-    background: none;
-  }
-
-  .nav__link a {
-    display: inline-block;
-    padding: 10px 20px;
-  }
-
-  .humburger {
-    display: none;
-  }
-
-  .img {
-    display: none;
-  }
+  margin-top: 30px;
 }

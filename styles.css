@@ -15,7 +15,7 @@ body {
   height: 80px;
   background-repeat: no-repeat;
   background-image: url(images/image_geometry_1.svg);
-  
+
 } */
 
 .nav-header {
@@ -23,7 +23,8 @@ body {
   width: 310px;
   height: auto;
 }
-/* 
+
+/*
 .ic-menu {
   margin-left: 280px;
   float: left;
@@ -72,7 +73,6 @@ body {
 }
 
 .container {
-  ackground-color: red;
   height: 655px;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -82,6 +82,7 @@ body {
 .humburger {
   padding-top: 20px;
 }
+
 .humburger .line {
   display: block;
   width: 25px;
@@ -89,7 +90,6 @@ body {
   margin-bottom: 5px;
   background-color: #1a2236;
   margin-left: 160px;
-  
 }
 
 .nav__link {
@@ -111,4 +111,4 @@ body {
 
 .hide {
   display: none;
-
+}

@@ -23,7 +23,6 @@
 
 .homepage {
   position: relative;
-  
 }
 
 .homepage-container-img {
@@ -89,7 +88,6 @@
   font-weight: 400;
   font-size: 50px;
   margin-left: 20px;
-
 }
 
 .projects-img1 {
@@ -104,7 +102,7 @@
   margin-top: -2px;
   height: 200px;
   background-repeat: no-repeat;
-  background-image: url(images/Rectangle\ 21\ \(1\).svg);
+  background-image: url(images/Rectangle\ 21\ \(1\) .svg);
   background-size: cover;
 }
 
@@ -112,7 +110,7 @@
   margin-top: -2px;
   height: 200px;
   background-repeat: no-repeat;
-  background-image: url(images/Rectangle\ 21\ \(2\).svg);
+  background-image: url(images/Rectangle\ 21\ \(2\) .svg);
   background-size: cover;
 }
 
@@ -120,14 +118,15 @@
   margin-top: -2px;
   height: 200px;
   background-repeat: no-repeat;
-  background-image: url(images/Rectangle\ 21\ \(3\).svg);
+  background-image: url(images/Rectangle\ 21\ \(3\) .svg);
   background-size: cover;
 }
+
 .projects-project5 {
   margin-top: -2px;
   height: 200px;
   background-repeat: no-repeat;
-  background-image: url(images/Rectangle\ 21\ \(4\).svg);
+  background-image: url(images/Rectangle\ 21\ \(4\) .svg);
   background-size: cover;
 }
 
@@ -135,7 +134,7 @@
   margin-top: -2px;
   height: 200px;
   background-repeat: no-repeat;
-  background-image: url(images/Rectangle\ 21\ \(5\).svg);
+  background-image: url(images/Rectangle\ 21\ \(5\) .svg);
   background-size: cover;
 }
 
@@ -148,23 +147,23 @@
 }
 
 .heading-blue-background {
-  color: #FFFFFF;
-  font-family: 'poppins',Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
   margin-left: 20px;
   padding-top: 20px;
   font-size: 20px;
   font-weight: 300;
-
 }
 
 .buttons {
   margin-left: 20px;
   padding-top: 10px;
-  
 }
 
-.button1, .button2, .button3 {
-  background-color: #98DEDE;
+.button1,
+.button2,
+.button3 {
+  background-color: #98dede;
   padding: 2px 5px 2px 5px;
   border: none;
   display: inline-block;
@@ -177,7 +176,6 @@
 .rectangle {
   margin-left: 20px;
   padding-top: 20px;
-  
 }
 
 .arrow {
@@ -190,21 +188,15 @@
   position: absolute;
   margin-top: -35px;
   margin-left: 35px;
-  font-family: 'Poppis',Arial, Helvetica, sans-serif;
+  font-family: 'Poppis', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
-   
 }
 
 .see a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
-}
-
-.see a:hover {
-  color: #98DEDE;
-  transition-duration: 0.8s;
 }
 
 .about-heading {
@@ -229,28 +221,35 @@
   margin-top: 25px;
   margin-left: 20px;
   background-color: #1a2236;
-  border: 0px;
+  border: 0;
   width: 90%;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding-right: 70px;
-    
 }
 
 .about-btn a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
+}
+
+.see a:hover {
+  color: #98dede;
+  transition-duration: 0.8s;
+}
+
+.about-btn a:hover {
+  color: #98dede;
+  transition-duration: 0.8s;
 }
 
 .arrow2 {
   position: absolute;
   margin-top: -32px;
   margin-left: 220px;
-
-  
 }
 
 .rectangle3 {
@@ -259,27 +258,28 @@
   margin-left: 214px;
 }
 
-
 .rec41 {
   margin-top: 40px;
   margin-left: 20px;
-  background-color: #1C528A;
+  background-color: #1c528a;
   height: 289px;
   width: 90%;
 }
 
 .rec41text {
-  color: #FFFFFF;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 20px;
   padding-top: 60px;
   margin-left: 70px;
 }
 
-.rec41 ul, .rec42 ul, .rec43 ul {
-  color: #FFFFFF;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+.rec41 ul,
+.rec42 ul,
+.rec43 ul {
+  color: #fff;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 18px;
   padding-top: 20px;
@@ -290,16 +290,15 @@
 .rec42 {
   margin-top: 40px;
   margin-left: 20px;
-  background-color: #E2505C;
+  background-color: #e2505c;
   height: 289px;
-  width: 90%;  
+  width: 90%;
 }
 
 .rec43 {
   margin-top: 40px;
   margin-left: 20px;
-  background-color: #FEBF52;
+  background-color: #febf52;
   height: 289px;
-  width: 90%;  
+  width: 90%;
 }
-

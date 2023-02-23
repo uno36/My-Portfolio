@@ -23,6 +23,7 @@
 
 .homepage {
   position: relative;
+  
 }
 
 .homepage-container-img {
@@ -63,7 +64,6 @@
 }
 
 .homepage-sub-class {
-  color: white;
   color: #fff;
   font-weight: 500;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -78,3 +78,228 @@
   margin-top: 22px;
   width: 90%;
 }
+
+.projects {
+  position: relative;
+}
+
+.projects-heading {
+  margin-top: 270px;
+  color: #1a2236;
+  font-weight: 400;
+  font-size: 50px;
+  margin-left: 20px;
+
+}
+
+.projects-img1 {
+  margin-top: 30px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 21.svg);
+  background-size: cover;
+}
+
+.projects-project2 {
+  margin-top: -2px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 21\ \(1\).svg);
+  background-size: cover;
+}
+
+.projects-project3 {
+  margin-top: -2px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 21\ \(2\).svg);
+  background-size: cover;
+}
+
+.projects-project4 {
+  margin-top: -2px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 21\ \(3\).svg);
+  background-size: cover;
+}
+.projects-project5 {
+  margin-top: -2px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 21\ \(4\).svg);
+  background-size: cover;
+}
+
+.projects-project6 {
+  margin-top: -2px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 21\ \(5\).svg);
+  background-size: cover;
+}
+
+.projects-img2 {
+  margin-top: -2px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-image: url(images/Rectangle\ 22.svg);
+  background-size: cover;
+}
+
+.heading-blue-background {
+  color: #FFFFFF;
+  font-family: 'poppins',Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.buttons {
+  margin-left: 20px;
+  padding-top: 10px;
+  
+}
+
+.button1, .button2, .button3 {
+  background-color: #98DEDE;
+  padding: 2px 5px 2px 5px;
+  border: none;
+  display: inline-block;
+  gap: 5px;
+  color: #1a2236;
+  font-size: 10.33px;
+  margin-inline: 3px;
+}
+
+.rectangle {
+  margin-left: 20px;
+  padding-top: 20px;
+  
+}
+
+.arrow {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 165px;
+}
+
+.see {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 35px;
+  font-family: 'Poppis',Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+   
+}
+
+.see a {
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.see a:hover {
+  color: #98DEDE;
+  transition-duration: 0.8s;
+}
+
+.about-heading {
+  color: #1a2236;
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.about-me {
+  color: #1a2236;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.about-btn {
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: #1a2236;
+  border: 0px;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-right: 70px;
+    
+}
+
+.about-btn a {
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.arrow2 {
+  position: absolute;
+  margin-top: -32px;
+  margin-left: 220px;
+
+  
+}
+
+.rectangle3 {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 214px;
+}
+
+
+.rec41 {
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: #1C528A;
+  height: 289px;
+  width: 90%;
+}
+
+.rec41text {
+  color: #FFFFFF;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  padding-top: 60px;
+  margin-left: 70px;
+}
+
+.rec41 ul, .rec42 ul, .rec43 ul {
+  color: #FFFFFF;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 20px;
+  margin-left: 90px;
+  letter-spacing: -5.25;
+}
+
+.rec42 {
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: #E2505C;
+  height: 289px;
+  width: 90%;  
+}
+
+.rec43 {
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: #FEBF52;
+  height: 289px;
+  width: 90%;  
+}
+

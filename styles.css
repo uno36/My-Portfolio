@@ -75,6 +75,7 @@
   margin-left: 20px;
   margin-top: 22px;
   width: 90%;
+  font-size: 16px;
 }
 
 .projects {
@@ -198,7 +199,8 @@
   cursor: pointer;
 }
 
-.about-heading {
+.about-heading,
+.contact-heading {
   color: #1a2236;
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -207,13 +209,15 @@
   margin-top: 40px;
 }
 
-.about-me {
+.about-me,
+.contact-para {
   color: #1a2236;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 14px;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 10px;
+  letter-spacing: -1%;
 }
 
 .about-btn {
@@ -232,6 +236,12 @@
 .about-btn a {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
+}
+
+.resume-btn a {
+  text-decoration: none;
+  color: #92dcdc;
   cursor: pointer;
 }
 
@@ -260,7 +270,7 @@
 .rec41 {
   margin-top: 40px;
   margin-left: 20px;
-  background-color: #547da7;
+  background-color: #1c528a;
   height: 289px;
   width: 90%;
 }
@@ -303,7 +313,119 @@
 }
 
 .number {
-  position: absolute;
+  margin-left: 235px;
+  margin-top: -33px;
+}
+
+.framework {
+  margin-left: 242px;
+  margin-top: -53px;
+}
+
+.bulb {
+  margin-left: 235px;
+  margin-top: -58px;
+}
+
+.contact-container {
+  height: 813px;
+  margin-top: 50px;
+  background-color: #f9f9fa;
+}
+
+.contact-info1 {
+  margin-top: 40px;
+}
+
+.contact-info2 {
+  margin-top: 10px;
+}
+
+.contact-info1,
+.contact-info2 {
+  margin-left: 20px;
+  background-color: #fff;
+  border: 1px solid;
+  height: 52px;
+  width: 90%;
+  border-color: #dfdfe0;
+  border-radius: 4px;
+}
+
+.contact-info3 {
+  margin-top: 10px;
+  height: 112px;
+  margin-left: 20px;
+  background-color: #fff;
+  border: 1px solid;
+  width: 90%;
+  border-color: #dfdfe0;
+  border-radius: 4px;
+}
+
+.contact-info1 .p1,
+.contact-info2 .p1 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-top: 5px;
+  color: #7d7c84;
+}
+
+.contact-info1 .p2,
+.contact-info2 .p2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.contact-info3 .p2 {
+  color: #7d7c84;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.contact-img {
+  margin-top: 53px;
+  height: 150px;
   background-repeat: no-repeat;
-  background-image: url(images/#.png);
+  background-image: url(images/Rectangle22.png);
+  background-size: cover;
+}
+
+.share-icon {
+  position: absolute;
+  margin-top: -108px;
+  margin-left: 160px;
+}
+
+.resume-btn {
+  margin-top: 35px;
+  margin-left: -50px;
+  background-color: #1a2236;
+  border: 0;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-right: 70px;
+}
+
+.icons li {
+  margin-top: -60px;
+  margin-left: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.icons ul {
+  display: flex;
+  padding: 1px;
 }

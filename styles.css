@@ -33,10 +33,12 @@
   background-size: 100%;
   height: 210px;
   width: 100%;
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 
 .homepage-heading {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-left: 16px;
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-size: 50px;
@@ -46,7 +48,7 @@
 
 .homepage-description1,
 .homepage-description2 {
-  margin-top: 17px;
+  margin-top: 23px;
   margin-left: 20px;
   margin-right: 16px;
   color: #1a2236;
@@ -54,6 +56,7 @@
   font-size: 14px;
   letter-spacing: -1%;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .homepage-sub-container {
@@ -61,22 +64,27 @@
   height: 50px;
 }
 
-.homepage-sub-class {
-  color: white;
-  color: #fff;
-  font-weight: 500;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding-top: 11px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  padding-right: 15px;
-  box-sizing: border-box;
-  background-color: #1a2236;
+.homepage-collaboration,
+.get-startedcollaboration,
+.about-collaboration {
+  margin-top: 10px;
+  height: 55px;
   margin-left: 20px;
-  margin-top: 22px;
-  width: 90%;
+  border: 1px solid;
+  margin-right: 20px;
+  background-color: #1a2236;
+}
+
+.homepage-start-collab,
+.get-started-start-collab,
+.about-start-collab {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 16px;
+  background-color: #1a2236;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
 }
 
 .projects {
@@ -186,6 +194,7 @@
 
 .about-me,
 .contact-para {
+  margin-bottom: 40px;
   color: #1a2236;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -195,30 +204,9 @@
   letter-spacing: -1%;
 }
 
-.about-btn {
-  margin-top: 25px;
-  margin-left: 20px;
-  margin-bottom: 50px;
-  background-color: #1a2236;
-  border: 0;
-  width: 90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  padding-right: 70px;
-}
-
-.about-btn a {
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-}
-
 .resume-btn a {
   text-decoration: none;
-  color: #92dcdc;
-  cursor: pointer;
+  color: #98dede;
 }
 
 .see a:hover {
@@ -226,21 +214,10 @@
   transition-duration: 0.8s;
 }
 
-.about-btn a:hover {
-  color: #98dede;
-  transition-duration: 0.8s;
-}
-
 .arrow2 {
   position: absolute;
-  margin-top: -5%;
-  margin-left: 53%;
-}
-
-.rectangle45 {
-  position: absolute;
-  margin-top: -5%;
-  margin-left: 52%;
+  margin-top: -15px;
+  margin-left: 3%;
 }
 
 .rec41text {
@@ -269,6 +246,7 @@
 .rec41 {
   background-image: url(images/number.png), url(images/Rectangle41.png);
   background-repeat: no-repeat;
+  margin-top: 35px;
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
@@ -318,9 +296,9 @@
   background-color: #fff;
   border: 1px solid;
   height: 52px;
-  width: 90%;
   border-color: #dfdfe0;
   border-radius: 4px;
+  margin-right: 20px;
 }
 
 .contact-info3 {
@@ -329,9 +307,10 @@
   margin-left: 20px;
   background-color: #fff;
   border: 1px solid;
-  width: 90%;
+  margin-right: 20px;
   border-color: #dfdfe0;
   border-radius: 4px;
+  margin-bottom: 35px;
 }
 
 .contact-info1 .p1,
@@ -372,8 +351,7 @@
 
 .share-icon {
   position: absolute;
-  margin-top: -17%;
-  margin-left: 26%;
+  margin-left: 1%;
 }
 
 .resume-btn {

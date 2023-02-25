@@ -216,8 +216,13 @@
 
 .arrow2 {
   position: absolute;
-  margin-top: -15px;
-  margin-left: 3%;
+  margin-top: 3px;
+  margin-left: 17px;
+}
+
+.rectangle45 {
+  margin-left: 11px;
+  margin-top: 9px;
 }
 
 .rec41text {

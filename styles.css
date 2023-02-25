@@ -41,6 +41,7 @@
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-size: 50px;
   color: #1a2236;
+  font-weight: 400;
 }
 
 .homepage-description1,
@@ -83,63 +84,33 @@
 }
 
 .projects-heading {
-  margin-top: 270px;
+  margin-top: 300px;
   color: #1a2236;
   font-weight: 400;
   font-size: 50px;
   margin-left: 20px;
+  padding-bottom: 30px;
 }
 
-.projects-img1 {
-  margin-top: 30px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-image: url(images/Rectangle212.png);
-  background-size: cover;
+.projects-project1 {
+  position: relative;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.projects-project2 {
-  margin-top: -2px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-image: url(images/Rectangle213.png);
-  background-size: cover;
-}
-
-.projects-project3 {
-  margin-top: -2px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-image: url(images/Rectangle214.png);
-  background-size: cover;
-}
-
-.projects-project4 {
-  margin-top: -2px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-image: url(images/Rectangle215.png);
-  background-size: cover;
-}
-
-.projects-project5 {
-  margin-top: -2px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-image: url(images/Rectangle216.png);
-  background-size: cover;
-}
-
+.projects-project2,
+.projects-project3,
+.projects-project4,
+.projects-project5,
 .projects-project6 {
-  margin-top: -2px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-image: url(images/Rectangle217.png);
-  background-size: cover;
+  margin-top: -3px;
+  width: 100%;
+  height: 186px;
 }
 
 .projects-img2 {
-  margin-top: -2px;
+  margin-top: -10px;
   height: 170px;
   background-repeat: no-repeat;
   background-image: url(images/Rectangle22.png);
@@ -155,9 +126,15 @@
   font-weight: 300;
 }
 
-.buttons {
-  margin-left: 20px;
+.buttons li {
   padding-top: 10px;
+  list-style-type: none;
+  display: inline-block;
+  margin-inline: 3px;
+}
+
+.button1 {
+  margin-left: 20px;
 }
 
 .button1,
@@ -167,10 +144,8 @@
   padding: 2px 5px 2px 5px;
   border: none;
   display: inline-block;
-  gap: 5px;
   color: #1a2236;
   font-size: 10.33px;
-  margin-inline: 3px;
 }
 
 .rectangle {
@@ -199,11 +174,11 @@
   cursor: pointer;
 }
 
-.about-heading,
-.contact-heading {
+.heading-about,
+.heading-contact {
   color: #1a2236;
-  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-weight: 400;
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-size: 50px;
   margin-left: 20px;
   margin-top: 40px;
@@ -223,6 +198,7 @@
 .about-btn {
   margin-top: 25px;
   margin-left: 20px;
+  margin-bottom: 50px;
   background-color: #1a2236;
   border: 0;
   width: 90%;
@@ -257,22 +233,14 @@
 
 .arrow2 {
   position: absolute;
-  margin-top: -32px;
-  margin-left: 220px;
+  margin-top: -5%;
+  margin-left: 53%;
 }
 
-.rectangle3 {
+.rectangle45 {
   position: absolute;
-  margin-top: -30px;
-  margin-left: 214px;
-}
-
-.rec41 {
-  margin-top: 40px;
-  margin-left: 20px;
-  background-color: #1c528a;
-  height: 289px;
-  width: 90%;
+  margin-top: -5%;
+  margin-left: 52%;
 }
 
 .rec41text {
@@ -280,8 +248,9 @@
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 20px;
-  padding-top: 60px;
-  margin-left: 70px;
+  padding-top: 10%;
+  margin-left: 25%;
+  width: 100%;
 }
 
 .rec41 ul,
@@ -291,40 +260,42 @@
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  padding-top: 20px;
-  margin-left: 90px;
+  padding-top: 5%;
+  margin-left: 30%;
   letter-spacing: -5.25%;
+  width: 100%;
+}
+
+.rec41 {
+  background-image: url(images/number.png), url(images/Rectangle41.png);
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-position: right bottom;
+  height: 289px;
+  background-size: auto, cover;
 }
 
 .rec42 {
-  margin-top: 40px;
+  background-image: url(images/ic_framework.png), url(images/Rectangle39.png);
+  background-repeat: no-repeat;
+  margin-top: 15px;
   margin-left: 20px;
-  background-color: #e2505c;
+  margin-right: 20px;
+  background-position: right bottom;
   height: 289px;
-  width: 90%;
+  background-size: auto, cover;
 }
 
 .rec43 {
-  margin-top: 40px;
+  background-image: url(images/ic_skills.png), url(images/Rectangle42.png);
+  background-repeat: no-repeat;
+  margin-top: 15px;
   margin-left: 20px;
-  background-color: #febf52;
+  margin-right: 20px;
+  background-position: right bottom;
   height: 289px;
-  width: 90%;
-}
-
-.number {
-  margin-left: 235px;
-  margin-top: -33px;
-}
-
-.framework {
-  margin-left: 242px;
-  margin-top: -53px;
-}
-
-.bulb {
-  margin-left: 235px;
-  margin-top: -58px;
+  background-size: auto, cover;
 }
 
 .contact-container {
@@ -401,16 +372,15 @@
 
 .share-icon {
   position: absolute;
-  margin-top: -108px;
-  margin-left: 160px;
+  margin-top: -17%;
+  margin-left: 26%;
 }
 
 .resume-btn {
   margin-top: 35px;
-  margin-left: -50px;
+  margin-left: 20px;
   background-color: #1a2236;
   border: 0;
-  width: 90%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -427,5 +397,6 @@
 
 .icons ul {
   display: flex;
-  padding: 1px;
+  justify-content: space-between;
+  padding-top: 5px;
 }

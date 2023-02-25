@@ -85,6 +85,7 @@
   text-align: center;
   padding-top: 15px;
   cursor: pointer;
+  padding-top: 5px;
 }
 
 .projects {
@@ -216,13 +217,13 @@
 
 .arrow2 {
   position: absolute;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 17px;
 }
 
 .rectangle45 {
   margin-left: 11px;
-  margin-top: 9px;
+  margin-top: 12px;
 }
 
 .rec41text {

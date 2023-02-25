@@ -184,6 +184,20 @@ I would like to thank Microverse for their continued support
 
 <!-- FAQ (optional) -->
 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **What is the purpose of a portfolio?**
+
+  - to get hold of opportunities from both investors and employers by showcasing your skills, projects and achievements
+
+- **What does a student portfolio look like?**
+
+  - Student Portfolio is a showcase of students’ project-based learning, highlighting the knowledge gained, skills developed and learning progress made over time. A digital portfolio enables students to share their best project work for awards, internships, jobs, and college applications
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 

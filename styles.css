@@ -78,7 +78,11 @@
   cursor: pointer;
   width: 100%;
   border: none;
-}
+  margin-left: 20px;
+  margin-top: 22px;
+  margin-left: 16px;
+  Width:90%;
+  }
 
 .homepage-start-collab,
 .get-started-start-collab,

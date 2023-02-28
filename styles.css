@@ -305,6 +305,20 @@
   margin-top: 10px;
 }
 
+.name,
+.email {
+  background-color: #fff;
+  border: 1px solid;
+  height: 52px;
+  border-color: #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 20px;
+
 .contact-info1,
 .contact-info2 {
   margin-left: 20px;

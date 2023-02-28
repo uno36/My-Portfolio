@@ -64,15 +64,20 @@
   height: 50px;
 }
 
-.homepage-collaboration,
-.get-startedcollaboration,
-.about-collaboration {
-  margin-top: 10px;
-  height: 55px;
-  margin-left: 20px;
-  border: 1px solid;
-  margin-right: 20px;
+.homepage-start-collab,
+.get-started-start-collab,
+.about-start-collab,
+.start-collab {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
   background-color: #1a2236;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
 }
 
 .homepage-start-collab,

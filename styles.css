@@ -318,6 +318,21 @@
   width: 90%;
   box-sizing: border-box;
   margin-left: 20px;
+}
+
+.message {
+  margin-top: 10px;
+  height: 112px;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 35px;
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
 
 
 .contact-info1,

@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair Display');
 @import url('https://fonts.googleapis.com/css?family=Poppin');
 
+body {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .main-header {
@@ -30,7 +33,6 @@
 .homepage {
   position: relative;
 }
-
 
 .homepage-heading {
   margin-top: 25px;
@@ -90,7 +92,6 @@
   margin-bottom: 10px;
 }
 
-
 .projects {
   position: relative;
 }
@@ -118,7 +119,7 @@
 .projects-project6 {
   margin-top: -3px;
   width: 100%;
-  height: 186px;
+  height: 100%;
 }
 
 .projects-img2 {
@@ -186,6 +187,10 @@
   cursor: pointer;
 }
 
+.about-container {
+  height: 100%;
+}
+
 .heading-about,
 .heading-contact {
   color: #1a2236;
@@ -242,14 +247,12 @@
 .rec41 ul,
 .rec42 ul,
 .rec43 ul {
+  padding-left: 30%;
   color: #fff;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 18px;
   padding-top: 5%;
-  margin-left: 30%;
-  letter-spacing: -5.25%;
-  width: 100%;
 }
 
 .rec41 {
@@ -259,8 +262,9 @@
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
-  height: 289px;
+  height: 100%;
   background-size: auto, cover;
+  padding-bottom: 78px;
 }
 
 .rec42 {
@@ -270,8 +274,9 @@
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
-  height: 289px;
+  height: 100%;
   background-size: auto, cover;
+  padding-bottom: 78px;
 }
 
 .rec43 {
@@ -281,8 +286,9 @@
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
-  height: 289px;
+  height: 100%;
   background-size: auto, cover;
+  padding-bottom: 78px;
 }
 
 .contact-container {
@@ -340,57 +346,6 @@
   margin-left: 80%;
 }
 
-.contact-info1,
-.contact-info2 {
-  margin-left: 20px;
-  background-color: #fff;
-  border: 1px solid;
-  height: 52px;
-  border-color: #dfdfe0;
-  border-radius: 4px;
-  margin-right: 20px;
-}
-
-.contact-info3 {
-  margin-top: 10px;
-  height: 112px;
-  margin-left: 20px;
-  background-color: #fff;
-  border: 1px solid;
-  margin-right: 20px;
-  border-color: #dfdfe0;
-  border-radius: 4px;
-  margin-bottom: 35px;
-}
-
-.contact-info1 .p1,
-.contact-info2 .p1 {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-  padding-left: 15px;
-  padding-top: 5px;
-  color: #7d7c84;
-}
-
-.contact-info1 .p2,
-.contact-info2 .p2 {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  padding-left: 15px;
-  padding-top: 5px;
-}
-
-.contact-info3 .p2 {
-  color: #7d7c84;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  padding-left: 15px;
-  padding-top: 15px;
-}
-
 .contact-img {
   margin-top: 53px;
   height: 150px;
@@ -417,14 +372,13 @@
 }
 
 .icons li {
-  margin-top: -60px;
+  margin-top: 15px;
   margin-left: 20px;
   list-style-type: none;
-  cursor: pointer;
 }
 
 .icons ul {
   display: flex;
   justify-content: space-between;
-  padding-top: 5px;
+  width: 90%;
 }

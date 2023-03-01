@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair Display');
 @import url('https://fonts.googleapis.com/css?family=Poppin');
 
+body {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +20,11 @@
   justify-content: space-between;
 }
 
+.btn-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .hamburger {
   margin-right: 16px;
   margin-top: 19px;
@@ -23,18 +32,6 @@
 
 .homepage {
   position: relative;
-}
-
-.homepage-container-img {
-  position: absolute;
-  top: 370px;
-  background-image: url(images/image_geometry_2.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 210px;
-  width: 100%;
-  margin-top: 70px;
-  margin-bottom: 10px;
 }
 
 .homepage-heading {
@@ -64,27 +61,35 @@
   height: 50px;
 }
 
-.homepage-collaboration,
-.get-startedcollaboration,
-.about-collaboration {
-  margin-top: 10px;
-  height: 55px;
-  margin-left: 20px;
-  border: 1px solid;
-  margin-right: 20px;
-  background-color: #1a2236;
-}
-
 .homepage-start-collab,
 .get-started-start-collab,
-.about-start-collab {
+.about-start-collab,
+.start-collab {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-color: #1a2236;
   color: white;
   text-align: center;
   padding-top: 15px;
+  padding-bottom: 15px;
   cursor: pointer;
+  width: 100%;
+}
+
+.start-collab:hover {
+  color: #98dede;
+  transition-delay: 0.2s;
+}
+
+.homepage-container-img {
+  top: 370px;
+  background-image: url(images/image_geometry_2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 210px;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 
 .projects {
@@ -92,7 +97,7 @@
 }
 
 .projects-heading {
-  margin-top: 300px;
+  margin-top: 30px;
   color: #1a2236;
   font-weight: 400;
   font-size: 50px;
@@ -114,7 +119,7 @@
 .projects-project6 {
   margin-top: -3px;
   width: 100%;
-  height: 186px;
+  height: 100%;
 }
 
 .projects-img2 {
@@ -182,6 +187,10 @@
   cursor: pointer;
 }
 
+.about-container {
+  height: 100%;
+}
+
 .heading-about,
 .heading-contact {
   color: #1a2236;
@@ -216,13 +225,13 @@
 
 .arrow2 {
   position: absolute;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 17px;
 }
 
 .rectangle45 {
   margin-left: 11px;
-  margin-top: 9px;
+  margin-top: 12px;
 }
 
 .rec41text {
@@ -238,14 +247,12 @@
 .rec41 ul,
 .rec42 ul,
 .rec43 ul {
+  padding-left: 30%;
   color: #fff;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 18px;
   padding-top: 5%;
-  margin-left: 30%;
-  letter-spacing: -5.25%;
-  width: 100%;
 }
 
 .rec41 {
@@ -255,8 +262,9 @@
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
-  height: 289px;
+  height: 100%;
   background-size: auto, cover;
+  padding-bottom: 78px;
 }
 
 .rec42 {
@@ -266,8 +274,9 @@
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
-  height: 289px;
+  height: 100%;
   background-size: auto, cover;
+  padding-bottom: 78px;
 }
 
 .rec43 {
@@ -277,12 +286,12 @@
   margin-left: 20px;
   margin-right: 20px;
   background-position: right bottom;
-  height: 289px;
+  height: 100%;
   background-size: auto, cover;
+  padding-bottom: 78px;
 }
 
 .contact-container {
-  height: 813px;
   margin-top: 50px;
   background-color: #f9f9fa;
 }
@@ -295,55 +304,46 @@
   margin-top: 10px;
 }
 
-.contact-info1,
-.contact-info2 {
-  margin-left: 20px;
+.name,
+.email {
   background-color: #fff;
   border: 1px solid;
   height: 52px;
   border-color: #dfdfe0;
   border-radius: 4px;
-  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 20px;
 }
 
-.contact-info3 {
+.message {
   margin-top: 10px;
-  height: 112px;
-  margin-left: 20px;
   background-color: #fff;
   border: 1px solid;
-  margin-right: 20px;
   border-color: #dfdfe0;
   border-radius: 4px;
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  resize: none;
+}
+
+.character-limit {
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 5px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 14px;
   margin-bottom: 35px;
-}
-
-.contact-info1 .p1,
-.contact-info2 .p1 {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-  padding-left: 15px;
-  padding-top: 5px;
-  color: #7d7c84;
-}
-
-.contact-info1 .p2,
-.contact-info2 .p2 {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  padding-left: 15px;
-  padding-top: 5px;
-}
-
-.contact-info3 .p2 {
-  color: #7d7c84;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  padding-left: 15px;
-  padding-top: 15px;
+  margin-left: 80%;
 }
 
 .contact-img {
@@ -372,14 +372,13 @@
 }
 
 .icons li {
-  margin-top: -60px;
+  margin-top: 15px;
   margin-left: 20px;
   list-style-type: none;
-  cursor: pointer;
 }
 
 .icons ul {
   display: flex;
   justify-content: space-between;
-  padding-top: 5px;
+  width: 90%;
 }

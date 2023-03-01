@@ -69,8 +69,25 @@
   height: 50px;
 }
 
+.homepage-start-collab,
+.get-started-start-collab,
+.about-start-collab,
+.start-collab {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #1a2236;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+}
 
-
+.start-collab:hover {
+  color: #98dede;
+  transition-delay: 0.2s;
+}
 
 .projects {
   position: relative;
@@ -266,18 +283,50 @@
   background-size: auto, cover;
 }
 
+.contact-container {
+  margin-top: 50px;
+  background-color: #f9f9fa;
+}
 
-
-
+.contact-info1 {
+  margin-top: 40px;
+}
 
 .contact-info2 {
   margin-top: 10px;
 }
 
+.name,
+.email {
+  background-color: #fff;
+  border: 1px solid;
+  height: 52px;
+  border-color: #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
 
-
-
-
+.message {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #dfdfe0;
+  border-radius: 4px;
+  margin-bottom: 35px;
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
 
 .contact-info1,
 .contact-info2 {

@@ -679,6 +679,21 @@ body {
   }
 
   .resume-btn {
+    margin-top: 70px;
+    margin-left: 100px;
+  }
 
+  .character-limit {
+    margin-left: 1200px;
+  }
+
+  .icons {
+    float: right;
+    margin-top: 70px;
+  }
+
+  .resume-and-icons {
+    width: 90%;
+    align-items: center;
   }
 }

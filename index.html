@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body
+<body>
     <header class="main-header">
         <nav class="nav-bar" >
             <div class="nav-img">
@@ -245,14 +245,15 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
                 </div>
                 <form action="https://formspree.io/f/xgebyodb" method="post">
+                    <div class="wrapper">
+                    <p class="your-name">Your name</p>  
+                    <p class="your-email">Your email</p>
+                    </div>        
                     <div class="input-wrapper">
-                    <input type="text" class="name" name="name" placeholder="your name" required="true" maxlength="30" > <br>
-                    <input type="email" class="email" name="Email" required="true" placeholder="your email">
+                        <input type="text" class="name" name="name" placeholder="your name" required="true" maxlength="30" >
+                        <input type="email" class="email" name="Email" required="true" placeholder="your email">
                     </div>
-                    <div id="input-wrapper">
-                        <input type="text" id="name" name="name"  required="true" maxlength="30" > 
-                        <input type="email" id="email" name="Email" required="true" >
-                    </div>
+                    <div class="your-message">Message</div>
                     <textarea name="text-area" id="your-message" rows="5" class="message" required="true" placeholder="Enter your message..." maxlength="500"></textarea>
                     <p class="character-limit">0/500</p>
                     <div class="btn-container">

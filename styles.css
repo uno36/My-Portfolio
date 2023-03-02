@@ -25,9 +25,7 @@ body {
   margin-right: 20px;
 }
 
-.hamburger-menu,
-#name,
-#email {
+.hamburger-menu {
   display: none;
 }
 
@@ -386,6 +384,12 @@ body {
   width: 90%;
 }
 
+.your-email,
+.your-name,
+.your-message {
+  color: transparent;
+}
+
 @media only screen and (min-width: 768px) {
   .nav-bar {
     width: 100%;
@@ -448,9 +452,7 @@ body {
   #project3,
   #project4,
   #project5,
-  #img6,
-  .name,
-  .email {
+  #img6 {
     display: none;
   }
 
@@ -563,8 +565,6 @@ body {
     font-size: 20px;
   }
 
-
-
   .see {
     margin-left: 50px;
   }
@@ -640,7 +640,7 @@ body {
   #collab {
     width: 254px;
     align-content: center;
-    margin-left: 850px;
+    margin-left: 840px;
   }
 
   .message {
@@ -650,7 +650,35 @@ body {
 
   .input-wrapper {
     display: flex;
-    width: 500px;
+    width: 565px;
     margin-left: 675px;
+  }
+
+  .wrapper,
+  .your-message {
+    display: flex;
+    width: 565px;
+    margin-left: 695px;
+    margin-bottom: 10px;
+  }
+
+  ::placeholder {
+    color: transparent;
+  }
+
+  .your-name {
+    padding-right: 220px;
+  }
+
+  .your-name,
+  .your-email,
+  .your-message {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #7d7c84;
+  }
+
+  .resume-btn {
+
   }
 }

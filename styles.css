@@ -392,36 +392,36 @@ body {
 
 @media only screen and (min-width: 768px) {
   .nav-bar {
-    width: 884px;
-    margin-left: 102px;
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: #fff;
     box-shadow: 0 0.5px 0 #dddfe6;
     padding-left: 35%;
+    
   }
 
   .homepage-heading {
     font-size: 110px;
     margin-top: 132px;
-    margin-left: 295px;
+    margin-left: 160px;
   }
 
   .homepage-description1,
   .homepage-description2 {
-    margin-left: 300px;
+    margin-left: 160px;
     width: 484px;
   }
 
   .homepage-start-collab {
-    margin-left: 280px;
+    margin-left: 140px;
     width: 254px;
     border: none;
   }
 
   .homepage-container-img {
     transform: rotate(360deg);
-    margin-left: 950px;
+    margin-left: 815px;
     margin-top: -668px;
     height: 877px;
     width: 702px;
@@ -433,7 +433,7 @@ body {
     height: 200px;
     width: 300px;
     position: absolute;
-    margin-left: 680px;
+    margin-left: 540px;
     margin-top: -205px;
   }
 
@@ -481,7 +481,7 @@ body {
   }
 
   .projects-project1 {
-    width: 978px;
+    width: 852px;
     margin-top: -90px;
     height: 490px;
     margin-left: 334px;
@@ -502,15 +502,15 @@ body {
     width: 465px;
     height: 270px;
     margin-top: 6px;
-    margin-left: 102px;
+    
   }
 
   .projects-project3 {
     position: absolute;
-    width: 800px;
+    width: 830px;
     height: 465px;
     margin-top: 138px;
-    margin-left: 102px;
+    
   }
 
   .projects-project4 {
@@ -518,31 +518,31 @@ body {
     width: 465px;
     height: 270px;
     margin-top: 369px;
-    margin-left: 500px;
+    margin-left: 415px;
   }
 
   .projects-project5 {
     position: absolute;
-    width: 465px;
+    width: 539px;
     height: 270px;
-    margin-left: 590px;
-    margin-top: 100px;
+    margin-left: 490px;
+    margin-top: 101px;
   }
 
   .projects-project6 {
     height: 270px;
     width: 465px;
     position: absolute;
-    margin-left: 590px;
+    margin-left: 520px;
     margin-top: -415px;
     z-index: -1;
   }
 
   #projects6 {
     position: absolute;
-    width: 465px;
+    width: 539px;
     height: 240px;
-    margin-left: 1181px;
+    margin-left: 981px;
     margin-top: -35px;
   }
 
@@ -597,25 +597,26 @@ body {
   }
 
   .About {
-    margin-top: 400px;
+    margin-top: 655px;
   }
 
   .heading-about {
+    position: absolute;
     font-size: 110px;
-    float: right;
-    margin-right: 555px;
+    margin-left: 900px;
+    margin-top: -300px;
   }
 
   .about-me {
-    float: right;
-    margin-right: 310px;
-    margin-left: 1050px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 900px;
   }
 
   .about-start-collab {
     width: 254px;
     border: none;
-    margin-left: 1030px;
+    margin-left: 885px;
   }
 
   .rec41,
@@ -628,24 +629,19 @@ body {
   .rec41 {
     position: absolute;
     margin-top: -390px;
-    margin-left: 380px;
+    margin-left: 160px;
   }
 
   .rec42 {
     position: absolute;
-    margin-left: 680px;
+    margin-left: 460px;
     margin-top: -390px;
   }
 
   .rec43 {
-    margin-left: 380px;
+    margin-left: 160px;
     margin-top: -180px;
     height: 220px;
-  }
-
-  .contact-container {
-    width: 1410px;
-    margin-left: 202px;
   }
 
   .contact {
@@ -662,8 +658,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vh;
-    margin-left: 440px;
+    width: 80vh;
+    margin-left: 470px;
+    
   }
 
   #collab {
@@ -674,20 +671,20 @@ body {
 
   .message {
     width: 542px;
-    margin-left: 440px;
+    margin-left: 465px;
   }
 
   .input-wrapper {
     display: flex;
     width: 565px;
-    margin-left: 420px;
+    margin-left: 445px;
   }
 
   .wrapper,
   .your-message {
     display: flex;
     width: 565px;
-    margin-left: 440px;
+    margin-left: 470px;
     margin-bottom: 5px;
   }
 
@@ -733,14 +730,14 @@ body {
     width: 750px;
     margin-top: 420px;
     position: absolute;
-    margin-left: 670px;
+    margin-left: 470px;
   }
 
   .diamond {
     background-repeat: no-repeat;
     background-image: url(images/image-geometry_3.png);
     height: 270px;
-    margin-left: 1005px;
+    margin-left: 830px;
     margin-top: 467px;
   }
 
@@ -748,14 +745,14 @@ body {
     background-repeat: no-repeat;
     background-image: url(images/image-geometry_5.png);
     height: 124px;
-    margin-left: 204px;
+    
   }
 
   .geometry-4 {
     background-repeat: no-repeat;
     background-image: url(images/image-geometry_4.png);
     height: 88px;
-    margin-left: 913px;
+    margin-left: 743px;
     margin-top: -122px;
   }
 
@@ -775,7 +772,7 @@ body {
     background-image: url(images/image-geometry_7.png);
     height: 351px;
     margin-top: -446px;
-    margin-left: 1059px;
+    margin-left: 1100px;
   }
 
   .blue-square {

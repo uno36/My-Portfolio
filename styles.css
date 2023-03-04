@@ -656,7 +656,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 80vh;
-    margin-left: 470px;
+    margin-left: 495px;
   }
 
   #collab {
@@ -667,20 +667,20 @@ body {
 
   .message {
     width: 542px;
-    margin-left: 465px;
+    margin-left: 488px;
   }
 
   .input-wrapper {
     display: flex;
     width: 565px;
-    margin-left: 445px;
+    margin-left: 470px;
   }
 
   .wrapper,
   .your-message {
     display: flex;
     width: 565px;
-    margin-left: 470px;
+    margin-left: 495px;
     margin-bottom: 5px;
   }
 
@@ -767,7 +767,7 @@ body {
     background-image: url(images/image-geometry_7.png);
     height: 351px;
     margin-top: -446px;
-    margin-left: 1100px;
+    margin-left: 1170px;
   }
 
   .blue-square {
